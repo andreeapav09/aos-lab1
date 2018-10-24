@@ -16,7 +16,15 @@ public class Person implements Serializable {
 	private String email;
 	private String name;
 
+	
 	public Person() {
+		
+	}
+	
+	
+	public Person(String email, String name) {
+		this.email = email;
+		this.name = name;
 	}
 
 
